@@ -4,7 +4,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/i18n', '@pinia/nuxt', '@nuxt/image', '@unocss/nuxt', '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxtjs/i18n',
+    '@pinia/nuxt',
+    '@nuxt/image',
+    '@unocss/nuxt',
+    '@nuxtjs/google-fonts',
+    '@nuxt/eslint',
+  ],
 
   googleFonts: {
     display: 'swap',
@@ -90,5 +97,5 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['~/assets/css/style.scss'],
+  css: ['~/assets/css/style.scss', '@unocss/reset/tailwind.css'],
 })

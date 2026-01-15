@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",
@@ -28,16 +29,20 @@
   },
   "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
   "devDependencies": {
+    "@nuxt/eslint": "^1.12.1",
     "@types/lodash-es": "^4.17.12",
     "@unocss/nuxt": "^65.5.0",
     "@unocss/postcss": "^65.5.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
     "postcss": "^8.5.6",
     "postcss-nested": "^7.0.2",
     "postcss-preset-env": "^10.2.4",
     "postcss-pxtorem": "^6.1.0",
     "prettier": "^3.6.2",
     "sass": "^1.90.0",
-    "unocss": "^65.5.0",
-    "vue-tsc": "^3.0.5"
+    "typescript": "^5.9.3",
+    "unocss": "^65.5.0"
   }
 }
