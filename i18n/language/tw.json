@@ -1,4 +1,18 @@
 {
   "welcome": "歡迎",
-  "test": "測試"
+  "test": "測試",
+  "name": "名字",
+  "age": "年齡",
+  "operate": "操作",
+  "modify": "修改",
+  "delete": "刪除",
+  "add": "新增",
+  "confirmMessage": "確定要{operatingMode}資料?",
+  "confirm": "確認",
+  "cancel": "取消",
+  "placeHolderDefault": "請輸入資料",
+  "requiredError": "此為必填欄位",
+  "defaultInputError": "欄位填寫錯誤",
+  "success": "成功",
+  "fail": "失敗"
 }

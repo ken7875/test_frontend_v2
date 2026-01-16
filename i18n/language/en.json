@@ -1,4 +1,17 @@
 {
   "welcome": "Welcome",
-  "test": "Test"
+  "test": "Test",
+  "name": "Name",
+  "age": "Age",
+  "operate": "Pperate",
+  "modify": "Modify",
+  "delete": "Delete",
+  "add": "Add",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "placeHolderDefault": "Please enter your information",
+  "requiredError": "This is a required field.",
+  "defaultInputError": "Incorrect field entry",
+  "success": "Success",
+  "fail": "Fail"
 }

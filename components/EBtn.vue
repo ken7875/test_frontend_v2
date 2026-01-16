@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button class="rounded-md">
     <slot />
   </button>
 </template>
@@ -10,21 +10,24 @@ interface Props {
   color?: 'success' | 'error' | 'warn' // 預設為 success
 }
 
-const props = withDefaults(defineProps<Props>(), {})
+withDefaults(defineProps<Props>(), {})
 </script>
 
 <style scoped lang="scss">
 .e-btn {
   // success 綠
   &-success {
+    background-color: var(--color-success);
   }
 
   // error 紅
   &-error {
+    background-color: var(--color-danger);
   }
 
   // warn 黃
   &-warn {
+    background-color: var(--color-warning);
   }
 }
 </style>
