@@ -15,8 +15,8 @@
 
 
 export interface MainGetUserInfoResp {
-    'age'?: number;
-    'id'?: number;
-    'name'?: string;
+    'age': number;
+    'id': number;
+    'name': string;
 }
 

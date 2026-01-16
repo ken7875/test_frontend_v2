@@ -23,6 +23,6 @@ import type { MainResponse } from './main-response';
 /**
  * @type CreateUserInfo200Response
  */
-export type CreateUserInfo200Response = MainResponse;
+export type CreateUserInfo200Response = MainResponse<MainCreateUserInfoResp>;
 
 

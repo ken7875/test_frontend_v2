@@ -15,6 +15,6 @@
 
 
 export interface MainCreateUserInfoResp {
-    'id'?: number;
+    'id': number;
 }
 
