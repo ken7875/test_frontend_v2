@@ -124,7 +124,6 @@
 
 <script setup lang="ts">
 import EDialog from '@/components/EDialog.vue'
-import { userApi } from '@/api/api-client/user'
 import type ETextField from '~/components/ETextField.vue'
 import { useAppStore } from '@/store/app'
 import type { MainGetUserInfoResp } from '@/api/model/main-get-user-info-resp'
@@ -229,9 +228,10 @@ const formValidator = () => {
 
 const deleteUserHandler = (id: number) => {
   operatingMode.value = 'delete'
-  openConfirmDialog()
   form.value.id = id
   mobileOperateOpenId.value = -1
+
+  openConfirmDialog()
 }
 
 const modifyUserHandler = (user: MainGetUserInfoResp) => {
