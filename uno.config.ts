@@ -82,6 +82,14 @@ export default defineConfig({
       cdn: 'https://esm.sh/',
     }),
   ],
+  theme: {
+    colors: {
+      danger: '#b41b1c', // 會生成 --color-secondary
+      warning: '#fbbe42',
+      // 狀態色
+      success: '#0c871e', // 會生成 --color-success
+    },
+  },
   preflights: [
     {
       getCSS: ({ theme }: { theme: PresetMiniTheme }) => {
